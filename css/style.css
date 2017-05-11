@@ -1,0 +1,119 @@
+/*UNIVERSAL*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1, h3, h5 {
+  text-shadow: 2px 1px #000;
+}
+
+.h1, h1 {
+    font-size: 60px;
+}
+
+.h3, h3 {
+    font-size: 35px;
+}
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.green-text {
+  color: #288C2F;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*NAVBAR SECTION*/
+.cs-tree {
+  width: 120px;
+  height: 170px;
+}
+
+.navbar-brand>img {
+    border: 1.5px solid black;
+    background:rgba(255,255,255, 0.3);
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  }
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: larger;
+    text-shadow: 0.5px 0.5px #fff;
+    background:rgba(255,255,255, 0.3);
+}
+
+/*MAIN IMGAGE*/
+#wood-cut {
+    background-image: url('../img/wood-cut.jpg');
+    padding-top: 10%;
+    width: 100%;
+}
+
+#wood-cut h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10%;
+  text-shadow: 3px 3px #000;
+  font-size: 40px;
+}
+
+#wood-cut p {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 2%;
+}
+
+/* OUR STORY SECTION*/
+#our-story{
+  margin-top: 20px;
+  color: #288C2F;
+}
+
+/*SERVICE SECTION*/
+#services-section {
+background-image: url('../img/tree-moss.jpg');
+background-size: cover;
+background-position: center;
+height: auto;
+padding-bottom: 40px;
+}
+
+#services-section h3 {
+   font-size: 23px;
+   text-shadow: none;
+}
+
+.tree-services, .col-md-3 {
+  background-color: #fff;
+}
+
+/*CONTACT SECTION*/
+#contact {
+  background-color: #555;
+}
+
+.contact {
+  padding-bottom: 5%;
+}
+
+#contact .col-sm-offset-2 {
+  margin-left: 35%;
+}
+
+.phone-number {
+  font-size: 23px;
+}
